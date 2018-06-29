@@ -23,6 +23,7 @@ dependencies:
 - expat
 - html5lib
 - icu
+- ipywidgets
 - defaults::intel-openmp
 - jedi
 - jinja2
@@ -85,6 +86,7 @@ dependencies:
   - pandas_summary
   - torchtext
   - sklearn_pandas
+  - graphviz
   - sphinx
   - sphinx_rtd_theme
   - sphinx-markdown-tables
