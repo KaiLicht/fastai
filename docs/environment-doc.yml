@@ -73,16 +73,18 @@ dependencies:
 - wheel
 - xz
 - zeromq
-- pytorch<0.4
+- pytorch-cpu
 - bcolz
 - prompt_toolkit
 - pytest
 - pip:
-  - torchvision>=0.1.9
+  - torchvision-cpu
   - opencv-python
   - isoweek
   - pandas_summary
   - torchtext
   - sklearn_pandas
-  - feather-format
-  - plotnine
+  - sphinx
+  - sphinx_rtd_theme
+  - sphinx-markdown-tables
+  - recommonmark
