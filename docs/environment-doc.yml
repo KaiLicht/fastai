@@ -2,6 +2,7 @@ name: fastai-doc
 channels:
 - fastai
 - pytorch
+- jjh_pytorch
 - defaults
 - peterjc123
 dependencies:
@@ -66,6 +67,7 @@ dependencies:
 - statsmodels
 - testpath
 - tk
+- torchvision-cpu
 - tornado<5
 - tqdm
 - traitlets
@@ -78,7 +80,6 @@ dependencies:
 - prompt_toolkit
 - pytest
 - pip:
-  - torchvision-cpu
   - opencv-python
   - isoweek
   - pandas_summary
