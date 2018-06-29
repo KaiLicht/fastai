@@ -1,14 +1,14 @@
-= fastai.dataloader
+# fastai.dataloader
 
-== Introduction and overview
+## Introduction and Overview
 
-*Note:* the fastai DataLoader has a similar API to the PyTorch DataLoader. Please see http://pytorch.org/docs/master/data.html#torch.utils.data.DataLoader[the PyTorch documentation] for usage and details. The documentation presented here focuses on the differences between the two classes.
+*Note:* the fastai DataLoader has a similar API to the PyTorch DataLoader. Please see [the PyTorch documentation](http://pytorch.org/docs/master/data.html#torch.utils.data.DataLoader) for usage and details. The documentation presented here focuses on the differences between the two classes.
 
-== {{class DataLoader,dataset,batch_size=1,shuffle=False,sampler=None,batch_sampler=None,pad_idx=0,num_workers=None,pin_memory=False,drop_last=False,pre_pad=True,half=False,transpose=False,transpose_y=False}}
+## {{class DataLoader,dataset,batch_size=1,shuffle=False,sampler=None,batch_sampler=None,pad_idx=0,num_workers=None,pin_memory=False,drop_last=False,pre_pad=True,half=False,transpose=False,transpose_y=False}}
 
 .Used to iterate through a dataset to pass data into a model for training.
 
-=== {{arguments}}
+### {{arguments}}
 
 For information on arguments with no descriptions, please see http://pytorch.org/docs/master/data.html#torch.utils.data.DataLoader[the PyTorch documentation]
 
@@ -44,7 +44,7 @@ If `True`, each batch will have its inputs transposed.
 {{arg transpose_y,bool,False}}
 If `True`, each batch will have its outputs (labels) transposed.
 
-=== {{methods}}
+### {{methods}}
 
 {{method jag_stack,b}}
 
