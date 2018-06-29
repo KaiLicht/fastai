@@ -32,7 +32,6 @@ dependencies:
 - jinja2
 - jsonschema
 - jupyter
-- jupyterlab
 - jupyter_client
 - jupyter_console
 - jupyter_core
@@ -103,6 +102,5 @@ dependencies:
   - sklearn_pandas
   - feather-format
   - plotnine
-  - kaggle
   - kaggle-cli
   - ipywidgets
