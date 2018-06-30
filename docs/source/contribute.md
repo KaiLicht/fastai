@@ -1,4 +1,4 @@
-# How to contribute
+# Contribute to the library
 _Jeremy’s notes on fastai coding style_
 
 ## Introduction

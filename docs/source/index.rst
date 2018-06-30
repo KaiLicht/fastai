@@ -34,24 +34,35 @@ After the data is loaded, it still needs to be used as part of a training loop. 
 
 .. toctree::
    :caption: Introduction
-   :hidden:
    :glob:
-   
+
+   Home <file:///home/kai/Dropbox/SCRATCH/PR_fastai/fastai/docs/build/html/index.html#>
    contribute
+   README
+
 
 .. toctree::
    :caption: Data Handling
-   :hidden:
    :glob:
-   
+
+   core
    dataloader
    transforms
+   dataset
+   structured
+   text
 
+.. toctree::
+   :caption: Model Training
+   :glob:
 
+   layer_optimizer
+   sgdr
+   model
+   learner
 
-Indices and tables
-==================
+.. toctree::
+   :caption: Examples
+   :glob:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   notebooks/TestNotebook.ipynb
