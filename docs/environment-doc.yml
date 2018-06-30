@@ -1,5 +1,6 @@
 name: fastai-doc
 channels:
+- conda-forge
 - fastai
 - pytorch
 - jjh_pytorch
