@@ -23,6 +23,7 @@ dependencies:
 - expat
 - html5lib
 - icu
+- ipython
 - ipywidgets
 - defaults::intel-openmp
 - jedi
@@ -40,6 +41,7 @@ dependencies:
 - olefile
 - openssl
 - pandas
+- pandoc
 - pandocfilters
 - path.py
 - patsy
