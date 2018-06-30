@@ -36,6 +36,7 @@ dependencies:
 - matplotlib
 - mistune
 - mkl
+- nbsphinx
 - olefile
 - openssl
 - pandas
