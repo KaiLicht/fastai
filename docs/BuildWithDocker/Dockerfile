@@ -19,4 +19,4 @@ RUN git clone https://github.com/kailicht/fastai.git . &&\
 
 ENV PATH /opt/conda/envs/fastai-doc/bin:$PATH
 
-CMD ["sh","-c","cd /fastai/docs/ && make html"]
+CMD ["sh","-c","cd /fastai/docs/ && make clean && make html"]
